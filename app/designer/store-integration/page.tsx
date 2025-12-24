@@ -100,6 +100,12 @@ function StoreIntegration() {
                     type="text"
                 />
             </div>
+            <p className='w-[358px] font-[display] mt-[8px] font-normal text-[15px] leading-[120%] text-[#000000]'>Additional feedback</p>
+            <input       
+                    className="h-[34px] mt-[10px] w-full outline-none placeholder-[#787878] rounded-[7px] border-[1px] border-[#000000] px-[12px] font-[display] text-[15px] leading-[120%] text-[#787878]"
+                    type="text"
+                    placeholder='Type your feedback'
+                />
 
             <div className='flex gap-[10px] justify-end mt-[35px]'>
                 <button className='flex items-center justify-center cursor-pointer h-[28px] border-[1px] border-[#000000] px-[10px] py-[1px] rounded-[9.85px] text-[16px] font-[display] font-[600] leading-[160%] text-[#000000]' onClick={() => setOpen2(false)}>Cancel</button>
