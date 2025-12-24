@@ -3,13 +3,14 @@ import IntegrationCard from '@/components/integration-card/integration-card';
 import React, { useState } from 'react';
 
 function StoreIntegration() {
-    const [checkedItems, setCheckedItems] = useState({});
+    // const [checkedItems, setCheckedItems] = useState({});
+    const [checkedItems, setCheckedItems] = useState<{ [key: string]: boolean }>({});
     const [open, setOpen] = useState(0)
     const [open2, setOpen2] = useState(0)
     const [value, setValue] = useState('');
     const [value2, setValue2] = useState('');
     
-    const toggleCheck = (id) => {
+    const toggleCheck = (id: string) => {
         setCheckedItems(prev => ({
             ...prev,
             [id]: !prev[id],
