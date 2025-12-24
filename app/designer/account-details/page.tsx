@@ -1,5 +1,4 @@
 'use client'
-export const dynamic = 'force-dynamic';
 
 import { useState } from 'react';
 // Simple header for designer pages (no sidebar dependency)

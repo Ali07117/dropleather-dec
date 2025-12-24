@@ -1,5 +1,3 @@
-export const dynamic = 'force-dynamic';
-
 import { AppSidebar } from "@/components/app-sidebar"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { requireSellerAuth } from "@/lib/seller-auth"
