@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 
 function IntegrationCard({icon, title, description, storeUrl, date, open2, setOpen2}) {
