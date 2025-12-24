@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { SiteHeader } from "@/components/site-header"
 import { ProductsShowcaseClient } from "@/components/products/ProductsShowcaseClient"
 import { Metadata } from "next"
